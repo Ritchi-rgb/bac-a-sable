@@ -2,7 +2,7 @@
 
 import os
 
-chemin = "E:/Users/Richard/AppData/Local/Programs/Microsoft VS Code/bac-a-sable"
+chemin = "E:/Users/Richard/Python/bac-a-sable.original"
 contenu = os.listdir(chemin)
 
 #print(f"Contenu du répertoire {contenu}\n")
