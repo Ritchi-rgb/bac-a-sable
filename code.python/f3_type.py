@@ -10,4 +10,4 @@ for nom in contenu:
     size = os.path.getsize(chemin)
     
     if os.path.isdir(chemin) is False :
-        print(f"{nom} - {size} octets")
+        print(f"{nom:15}{size:>10} octets")
